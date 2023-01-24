@@ -1,15 +1,15 @@
-let character = 'mario';
-let age = 30;
-let isBlackBelt = false;
+// arrays
+let names = ['luigi', 'mario', 'yoshi'];
 
-// character = 20;
-character = 'luigi';
+names.push('toad');
+// names.push(3);
+// names[1] = 3;
 
-// age = 'yoshi';
-age = 40;
+let numbers = [10, 20, 12, 15];
 
-// isBlackBelt = 'yes';
-isBlackBelt = true;
+numbers.push(25);
+// numbers.push('shaun');
+// numbers[0] = 'shaun';
 
 const circ = (diameter: number) => {
   return diameter * Math.PI;
